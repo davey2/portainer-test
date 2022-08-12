@@ -3,3 +3,5 @@ services:
     image: nginx
     ports:
       - 80:80
+    volumes:
+      - ./index.html:/var/www/html
