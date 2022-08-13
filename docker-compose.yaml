@@ -3,6 +3,3 @@ services:
     image: nginx
     ports:
       - 80:80
-    volumes:
-      - ./:/var/www/html
-      - ./index.html:/var/www/html/index.html
