@@ -4,5 +4,5 @@ services:
     ports:
       - 80:80
     volumes:
-      - ${PWD}:/var/www/html
-      - ${PWD}/index.html:/var/www/html/index.html
+      - ./:/var/www/html
+      - ./index.html:/var/www/html/index.html
